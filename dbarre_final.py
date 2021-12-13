@@ -41,6 +41,7 @@ def page_1(df):
     plt.xlabel("Mean Elevation (In Meters)")
     plt.barh(x, y, color=color)
     st.write(fig)
+    return plt
 
 
 def page_2(df):
@@ -65,6 +66,7 @@ def page_2(df):
     plt.ylabel("Elevation (In Meters)")
     plt.scatter(x, y, marker=marker, color=color)
     st.write(fig)
+    return plt
 
 
 def page_3(df):
